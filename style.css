@@ -1,0 +1,144 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: lighter;
+}
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    width: 100%;
+    height:100%;
+}
+header{
+    display:flex;
+    position:relative;
+    width: 100%;
+    height:30%;
+    background-color:#ececec;
+    justify-content: space-around;
+    align-items: center;
+}
+.carre{
+    position:absolute;
+    z-index:2;
+    width:4em;
+    height:2em;
+    background-color:gray;
+    color:white;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#carHaut{
+    top:15%;
+    left:10%;
+}
+#carBas{
+    bottom:15%;
+    right:10%;
+    background-color:lightgray;
+}
+#cadre{
+    display:flex;
+    flex-direction: column;
+    width:70%;
+    height:60%;
+    border:1px dashed gray;
+}
+#cadreContent{
+    margin:auto;
+}
+h1{
+    text-align:center;
+    font-size:1.5em;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+hr{
+    width:30%;
+    margin-left:auto;
+    margin-right: auto;
+}
+main{
+    height:70%;
+    width:100%;
+}
+nav{
+    height:20%;
+    width:100%;
+    background-color:darkgray;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+#adresse, #adHover, #mail, #mailHover{
+    width:100%;
+}
+#tel, #telHover, #github, #gitHover{
+    width:50%;
+}
+h3{
+    text-align: center;
+    color:white;
+}
+.hover{
+    display:none;
+}
+#sections{
+    display: flex;
+    flex-direction: column;
+    background-color:gray;
+    align-items: center;
+    justify-content: space-around;
+    min-height:80%;
+    width:100%;
+}
+.section{
+    display:flex;
+    flex-direction: column;
+    margin-top:10px;
+    margin-bottom:10px;
+    width:100%;
+    height:25%;
+    justify-content: space-around;
+    align-items: center;
+}
+.titles{
+    display: flex;
+    flex-direction: row;
+    color:white;
+    margin:10px;
+    padding-left: 5px;
+    padding-right:5px;
+    height:4em;
+    width:80%;
+    background-color: rgb(134, 133, 133);
+    justify-content: space-between;
+    align-items: center;
+}
+.slide{
+    display:none;
+    color:white;
+    width:80%;
+    padding-left: 5px;
+    padding-right:5px;
+    background-color: rgb(134, 133, 133);
+}
+h4{
+    font-style: italic;
+}
+.titleSlide{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.nameWork{
+    width:80%;
+}
+.dateWork{
+    width:20%;
+}
